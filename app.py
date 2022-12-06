@@ -20,8 +20,8 @@ url = 'https://jvcom-lncm5vxigq-ew.a.run.app/pred'
 params = {
     'text': f"{text}"
 }
-type = requests.get(url, params=params).json()['type']
-proba = requests.get(url, params=params).json()['proba']
+
+#proba = requests.get(url, params=params).json()['proba']
 '''
 #
 '''
@@ -32,9 +32,10 @@ if st.button('Evaluate'):
     '''
     #
     '''
+    type = requests.get(url, params=params).json()['type']
     if type == 0:
         st.write(f'### ✅ This message is NOT considered SEXIST by our model.')
-        st.write(proba)
+        #st.write(proba)
     else:
         st.write(f'### 🟥 This message is considered SEXIST by our model.')
-        st.write(proba)
+        #st.write(proba)
