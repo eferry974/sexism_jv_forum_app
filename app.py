@@ -16,7 +16,7 @@ import requests
 '''
 text = st.text_area(label='', placeholder="Paste here 18-25's finest jibber-jabber...")
 
-url = 'http://127.0.0.1:8000/pred'
+url = 'https://jvcom-lncm5vxigq-ew.a.run.app/pred'
 params = {
     'text': f"{text}"
 }
