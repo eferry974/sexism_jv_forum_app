@@ -157,7 +157,7 @@ if submitted:
     <span
         class="JvCare 45CBCBC0C22D1F1FCCCCCC194D43C3C5C4464B434F19424F4E1FC0C14F4446481FC04649473F44484A4E46494C4F2F4E4F4B432E4649444FC2 bloc-pseudo-msg text-user"
         target="_blank">
-        Username has been hidden
+        <I>Nom d'utilisateur masqué</I>
     </span>
     <div class="bloc-options-msg"></div>
     <div class="bloc-date-msg">
